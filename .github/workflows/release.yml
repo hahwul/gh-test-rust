@@ -74,7 +74,7 @@ jobs:
       - name: Build archive
         shell: bash
         run: |
-          binary_name="urx"
+          binary_name="gh-test-rust"
           dirname="$binary_name-$VERSION-${{ matrix.build }}"
           mkdir "$dirname"
 
